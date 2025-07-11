@@ -1,3 +1,4 @@
+![1](https://github.com/AkankshRakesh/TidyDesk/blob/master/public/1.png)
 # TidyDesk - Personal Productivity App
 
 A fullstack web application that allows users to sign up, log in, and manage their personal notes and tasks with AI-powered assistance.
@@ -208,6 +209,12 @@ NEXTAUTH_URL=https://your-domain.com
 NEXTAUTH_SECRET=your-production-secret
 GOOGLE_GENERATIVE_AI_API_KEY=your-gemini-api-key
 ```
+
+## Site images
+![2](https://github.com/AkankshRakesh/TidyDesk/blob/master/public/2.png)
+![3](https://github.com/AkankshRakesh/TidyDesk/blob/master/public/3.png)
+![4](https://github.com/AkankshRakesh/TidyDesk/blob/master/public/4.png)
+![5](https://github.com/AkankshRakesh/TidyDesk/blob/master/public/5.png)
 
 ## Development Approach
 
