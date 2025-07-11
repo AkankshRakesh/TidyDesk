@@ -55,20 +55,20 @@ A fullstack web application that allows users to sign up, log in, and manage the
 ### Installation
 
 1. Clone the repository:
-\`\`\`bash
+```bash
 git clone <repository-url>
 cd my-workspace
-\`\`\`
+```
 
 2. Install dependencies:
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 3. Set up environment variables:
 Create a `.env.local` file in the root directory:
 
-\`\`\`env
+```env
 # Database
 MONGODB_URI=mongodb://localhost:27017/my-workspace
 # or for MongoDB Atlas:
@@ -80,18 +80,18 @@ NEXTAUTH_SECRET=your-nextauth-secret-key
 
 # Gemini (for AI features)
 GOOGLE_GENERATIVE_AI_API_KEY=your-gemini-api-key
-\`\`\`
+```
 
 4. Run the development server:
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Project Structure
 
-\`\`\`
+```
 my-workspace/
 ├── app/                    # Next.js App Router
 │   ├── api/               # API routes
@@ -112,7 +112,7 @@ my-workspace/
 │   ├── Note.ts
 │   └── Task.ts
 └── types/                 # TypeScript definitions
-\`\`\`
+```
 
 ## API Endpoints
 
@@ -136,27 +136,27 @@ my-workspace/
 ## Database Schema
 
 ### User Model
-\`\`\`typescript
+```typescript
 {
   name: string
   email: string (unique)
   password: string (hashed)
   timestamps: true
 }
-\`\`\`
+```
 
 ### Note Model
-\`\`\`typescript
+```typescript
 {
   title: string
   content: string
   userEmail: string (indexed)
   timestamps: true
 }
-\`\`\`
+```
 
 ### Task Model
-\`\`\`typescript
+```typescript
 {
   title: string
   description: string
@@ -165,7 +165,7 @@ my-workspace/
   userEmail: string (indexed)
   timestamps: true
 }
-\`\`\`
+```
 
 ## State Management
 
@@ -202,12 +202,12 @@ The AI integration provides:
 
 ### Environment Variables for Production
 
-\`\`\`env
+```env
 MONGODB_URI=your-production-mongodb-uri
 NEXTAUTH_URL=https://your-domain.com
 NEXTAUTH_SECRET=your-production-secret
 GOOGLE_GENERATIVE_AI_API_KEY=your-gemini-api-key
-\`\`\`
+```
 
 ## Development Approach
 
