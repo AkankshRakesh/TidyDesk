@@ -57,7 +57,7 @@ A fullstack web application that allows users to sign up, log in, and manage the
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd my-workspace
+cd tidydesk
 ```
 
 2. Install dependencies:
@@ -70,9 +70,9 @@ Create a `.env.local` file in the root directory:
 
 ```env
 # Database
-MONGODB_URI=mongodb://localhost:27017/my-workspace
+MONGODB_URI=mongodb://localhost:27017/tidydesk
 # or for MongoDB Atlas:
-# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/my-workspace
+# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/tidydesk
 
 # NextAuth
 NEXTAUTH_URL=http://localhost:3000
@@ -92,7 +92,7 @@ npm run dev
 ## Project Structure
 
 ```
-my-workspace/
+tidydesk/
 ├── app/                    # Next.js App Router
 │   ├── api/               # API routes
 │   ├── auth/              # Authentication pages
