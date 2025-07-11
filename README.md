@@ -1,4 +1,4 @@
-# My Workspace - Personal Productivity App
+# TidyDesk - Personal Productivity App
 
 A fullstack web application that allows users to sign up, log in, and manage their personal notes and tasks with AI-powered assistance.
 
